@@ -1,0 +1,35 @@
+.information{
+    display: flex;
+    height: 25vh;
+    width: max-width: 100%;
+
+    border-radius: 25px;
+}
+
+.website{
+    flex: 1;
+    height: 100%;
+    background-image: url(/images/setImages/Duskmourn.webp);
+    background-size: 100% 100%;
+    border-radius: 25px;
+    float: left;
+    border: 3px solid gold;
+ }
+
+.set-information{
+    flex: 1;
+    height: 100%;
+    border-radius: 25px;
+    text-align: center;
+    border: 3px solid gold;
+}
+
+.card-list{
+    flex: 1;
+    height: 100%;
+    background-color: #A0A0A0;
+    border-radius: 25px;
+    float: right;
+    text-align: center;
+    border: 3px solid gold;
+}
