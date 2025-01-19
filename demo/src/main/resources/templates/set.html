@@ -32,7 +32,12 @@
 
     <!-- MAIN CONTAINER. -->
     <div class="main-container">
-
+        <h1>Cards in Set</h1>
+        <ul>
+            <li th:each="card : ${cards}">
+                <span th:text="${card.name}">Card Name</span>
+            </li>
+        </ul>
     </div>
 
     <!-- FOOTER -->
